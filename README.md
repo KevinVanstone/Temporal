@@ -1,23 +1,23 @@
 # Temporal (Heavy WIP) [![GoDoc](https://godoc.org/github.com/RTradeLtd/Temporal/api?status.svg)](https://godoc.org/github.com/RTradeLtd/Temporal/api)
 
-Temporal is an enterprise-grade storage solution featuring an easy to consume API that can be easily integrated into your existing application stack, providing all the benefits of the distributed web, without any of the overhead that comes with running distributed storage nodes.  Initially targetting the public IPFS network, the next release cycle will bring support for additional protocols such as Ethereum Swarm and Private IPFS network. Temporal won't stop there and will continue to evolve as the space itself evolves. At RTrade we understand that the Blockchain and Distributed technology space evolve at an extremely quick pace so we are designing Temporal with modularity in mind so that as the space evolves we can evolve seamlessly with it.
+Temporal is an enterprise-grade storage solution featuring an easy to consume API that can be easily integrated into your existing application stack, providing all the benefits of the distributed web without any of the overhead that comes with running distributed storage nodes.  Initially targetting the public IPFS network, the next release cycle will bring support for additional protocols such as Ethereum Swarm and Private IPFS network. Temporal won't stop there and will continue to evolve as the space itself evolves. At RTrade we understand that the blockchain and distributed technology space evolve at an extremely quick pace so we are designing Temporal with modularity in mind so that as the space evolves we can evolve seamlessly with it.
 
-Temporal's API comes in two flavours, hosted or on-site. Should you not have the resources to run your own distributed storage nodes and infrastructure, you can take advantage of our hosted API allowing us to manage all the storage nodes and infrastructure, so all that you have to worry about is your application and using our API; We deal with all the hardware and infrastructure failures so that you can spend your hard work focusing on releasing products, not troubleshooting infrastructure failures which drain critical development resources. If however you have the infrastructure, and technical resources you can take advantage of Temporal being open source and deploy your own Temporal infrastructure. For on-site deployments we offer special paid for installations, maintenance, upgrades, and product usage information sessions allowing you to take full advantage of the power that comes with running your own Temporal infrastructure.
+Temporal's API comes in two flavours, hosted or on-site. Should you not have the resources to run your own distributed storage nodes and infrastructure, you can take advantage of our hosted API allowing us to manage all the storage nodes and infrastructure. All that you have to worry about is your application and using our API while we deal with all the hardware and infrastructure, allowing you to spend your time focusing on releasing products, rather than troubleshooting infrastructure failures which drain critical development resources. If you have the infrastructure and technical resources, you can also take advantage of Temporal being open source and deploy your own Temporal infrastructure. For on-site deployments we offer special paid for installations, maintenance, upgrades, and product usage information sessions allowing you to take full advantage of the power that comes with running your own Temporal infrastructure.
 
 
 # Supported Technologies
 
-Following is a list of distributed and decentralized storage technologies that Temporal currently, or plans on supporting.
+The following is a list of distributed and decentralized storage technologies that Temporal intends to support.
 
 IPFS (50% complete):
 
-    Temporal supports integration with the public IPFS network, and will evolve to support new features added to IPFS so that you will have the most optimal experience possible, and never suffer from inability to access the latest and greatest features due to an API that fails to evolve as the underlying technology evolves.
+    Temporal supports integration with the public IPFS network and will evolve to support new features added to IPFS so that you will have the most optimal experience possible with an API that is constantly in development. 
 
-    Soon after release, support for Private IPFS networks will be integrated into Temporal, allowing you to get the same benefits of the public IPFS network, but with the data security and privacy that comes with running a private network. This is extremely useful to financial institutions, data archivers, and other industries to whom data security and privacy is one of the primary concerns when integrating with any new technology
+    Soon after release, support for Private IPFS networks will be integrated into Temporal, allowing you to get the same benefits of the public IPFS network with the data security and privacy that comes with running a private network. This is extremely useful to financial institutions, data archivers, and other industries to whom data security and privacy is one of the primary concerns when integrating with any new technology.
 
 Swarm (5% complete):
 
-    Swarm blends the power of IPFS, with the power of Blockchain and is common place in protocols like Ethereum. Temporal will provide an interface into the Ethereum mainnet Swarm protocol, allowing you to store your data onto the Ethereum blockchain. You'll also take advantage of having that particular data persistently stored on our high quality Ethereum node infrastructure.  Currently the Swarm protocol isn't fully integrated yet with Ethereum, and as such, the SWAP accounting protocol isn't fully implemented yet, which means nodes in the network aren't guaranteed to persist your data which means it could dissapear into the Ether. Until SWAP is fully integrated we hope to offer increased utilizatinon and adoption of SWARM by taking advantage of the data persistence offered by Temporal, and our high quality Ethereum infrastructure
+    Swarm blends the power of IPFS with the power of Blockchain and is common place in protocols like Ethereum. Temporal will provide an interface into the Ethereum mainnet Swarm protocol, allowing you to store your data onto the Ethereum blockchain. You'll also take advantage of having that particular data persistently stored on our high quality Ethereum node infrastructure.  Currently the Swarm protocol isn't fully integrated yet with Ethereum, and as such, the SWAP accounting protocol isn't fully implemented yet, which means nodes in the network aren't guaranteed to persist your data. Until SWAP is fully integrated we hope to offer increased utilization and adoption of SWARM by taking advantage of the data persistence offered by Temporal and our high quality Ethereum infrastructure.
 
 STORJ (0% complete):
 
@@ -50,17 +50,17 @@ All templates, and grafana graphs, as well as necessary configuration filse and 
 # Goals
 
 * Provide an easy to use interface into distributed and decentralized storage technologies.
-* Educate about decentralized and distributed storage technologies
-* Introduce these new storage technologies to audiences who may have otherwise not heard of them
-* Help organizations make informed decisions about whether or not integrating distributed and decentralized storage technologies is the right thing to do for your business
+* Teach users how to use decentralized and distributed storage technologies.
+* Introduce these new storage technologies to audiences who may have otherwise not heard of them.
+* Help organizations make informed decisions about whether or not integrating distributed and decentralized storage technologies is the right thing to do for their business.
 
 # Data Privacy
 
-This is a huge issue and concern for any form of cloud storage. But is seldom mentioned by any of the projects promising revolutionary storage systems, global in scope. They'll talk about all the technical benefits, and features of their storage solutions which use IPFS, but data privacy isn't discussed. Data privacy is an extreme focus of RTrade, and we will not be releasing Temporal until we are absolutely certain that all data privacy laws we need to abide by, are met. This is currently one of our primary areas of focus.
+Privacy is a huge issue and concern for any form of cloud storage, but is rarely mentioned by projects promising revolutionary storage systems on a global scale. Many projects talk about all the technical benefits and features of their storage solutions which use IPFS, but data privacy isn't discussed. Data privacy is an extreme focus of RTrade, and we will not be releasing Temporal until we are absolutely certain that all data privacy laws we need to abide by are met.
 
 # How're We Different
 
-We aren't doing an ICO,  and we're not wasting our development efforts on redesigning the wheel with some new fangled storage protocol, and blockchain solution. Although we're using bleeding edge technology, we're commited to using names, and open source software that is already tested, and that has a thriving development community behind them. And finally, results matter; It is far to common in this space for companies to ask you to hand over your hand earned cash on the fleeting promise that it will lead to something, but that something is either never delivered, or extremely lack in features, and is not the original idea which was sold.
+AT RTrade we made the concious decision not to launch an ICO and we will not be wasting our development efforts redesigning the wheel with any new storage protocol or blockchain solution. Although we're using bleeding edge technology, we're commited to using names and open source software that are already tested, and that have a thriving development community behind them. And finally, results matter; It is far to common in this space for companies to ask you to hand over your hand earned cash on the fleeting promise that it will lead to something, but that something is either never delivered, or extremely lack in features, and is not the original idea which was sold.
 
 # Contributing Code
 
